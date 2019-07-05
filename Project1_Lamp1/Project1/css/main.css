@@ -1,0 +1,87 @@
+*,*:before, *:after{
+    box-sizing: border-box;
+}
+body {
+    background-color: #999999;
+}
+
+main{
+    margin: 10% auto;
+    background-color: #ffffff;
+    max-width: 50%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
+
+#Options {
+    padding: 1%;
+    margin: 0 5%;
+}
+
+#CheckboxDiv, #DropdownDiv {
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
+}
+#RadioDiv {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+
+}
+
+#BoxInformation {
+    display: grid;
+    padding-top: 40px;
+    margin-left: 20px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#BoxControl {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+input[type="button"], input[type="submit"] {
+    width: 150px;
+    float: right;
+    border-bottom-left-radius: 20%;
+}
+input[type="button"]:last-child, input[type="submit"]:last-child {
+  margin-right: 10px;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
+
+.Labels{
+    text-align: justify;
+    font-family: cursive;
+}
+
+p{
+    margin: 10px;
+}
+
+#tableInfo table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#tableInfo{
+    display: inline-block;
+    margin-left: 20px;
+
+
+}
+
+
+
+
+
+
